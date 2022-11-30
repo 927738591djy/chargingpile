@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/assignment/assignment",
     "pages/trip/trip",
     "pages/index/index",
     "pages/logs/logs"
-    
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -16,6 +16,8 @@
     "van-calendar": "./miniprogram/miniprogram_npm/@vant/weapp/calendar/index",
     "van-button": "./miniprogram/miniprogram_npm/@vant/weapp/button/index",
     "van-cell": "./miniprogram/miniprogram_npm/@vant/weapp/cell/index",
-    "van-cell-group": "./miniprogram/miniprogram_npm/@vant/weapp/cell-group/index"
+    "van-cell-group": "./miniprogram/miniprogram_npm/@vant/weapp/cell-group/index",
+    "van-picker": "./miniprogram/miniprogram_npm/@vant/weapp/picker/index",
+    "van-popup": "./miniprogram/miniprogram_npm/@vant/weapp/popup/index"
   }
 }
