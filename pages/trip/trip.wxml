@@ -1,0 +1,74 @@
+<!--pages/trip/trip.wxml-->
+<view class="top">
+  <view class="top_left">
+    <view>2011.11</view>
+    <image style="width: 20rpx; height: 20rpx;" src="../../assets/img/left.png" alt="" />
+    <image style="width: 20rpx; height: 20rpx;" src="../../assets/img/right.png" alt="" />
+  </view>
+  <view class="close" bindtap="onCalendarShow">收起</view>
+</view>
+<view style="height: 100rpx;"></view>
+<van-calendar poppable="{{ false }}" color="#62a0f4" show-confirm="{{false}}" row-height="{{50}}" round="{{false}}" show-mark="{{false}}" show-title="{{false}}" show="{{ CalendarShow }}" position="top" bind:close="onCalendarClose" bind:confirm="onCalendarConfirm" show-subtitle="{{false}}" />
+
+<view class="selected_time"><van-cell title="当前选中的日期是：2022年12月19日" value="" /></view>
+
+
+<van-cell-group>
+  <van-cell title="2022年-11-30 09:00:20:0" border="{{ true }}" value="特斯拉"></van-cell>
+  <van-cell use-label-slot border="{{ true }}">
+    <view slot="label">
+      <view style="color: #000;">车主：冯晨晨kkk</view>
+      <view style="margin-top: 20rpx;">安装地址：上海市松江取</view>
+    </view>
+    <view>
+      <view style="color: #000;">工程师：宋彪</view>
+      <image style="width: 50rpx; height: 50rpx" src="../../assets/img/kang.png" alt="" />
+    </view>
+  </van-cell>
+</van-cell-group>
+
+
+<van-cell-group>
+  <van-cell title="2022年-11-30 09:00:20:0" border="{{ true }}" value="特斯拉"></van-cell>
+  <van-cell use-label-slot border="{{ true }}">
+    <view slot="label">
+      <view style="color: #000;">车主：冯晨晨kkk</view>
+      <view style="margin-top: 20rpx;">安装地址：上海市松江取</view>
+    </view>
+    <view>
+      <view style="color: #000;">工程师：宋彪</view>
+      <image style="width: 50rpx; height: 50rpx" src="../../assets/img/kang.png" alt="" />
+    </view>
+  </van-cell>
+</van-cell-group>
+
+
+<van-cell-group>
+  <van-cell title="2022年-11-30 09:00:20:0" border="{{ true }}" value="特斯拉"></van-cell>
+  <van-cell use-label-slot border="{{ true }}">
+    <view slot="label">
+      <view style="color: #000;">车主：冯晨晨kkk</view>
+      <view style="margin-top: 20rpx;">安装地址：上海市松江取</view>
+    </view>
+    <view>
+      <view style="color: #000;">工程师：宋彪</view>
+      <image style="width: 50rpx; height: 50rpx" src="../../assets/img/kang.png" alt="" />
+    </view>
+  </van-cell>
+</van-cell-group>
+
+
+
+<van-cell-group>
+  <van-cell title="2022年-11-30 09:00:20:0" border="{{ true }}" value="特斯拉"></van-cell>
+  <van-cell use-label-slot border="{{ true }}">
+    <view slot="label">
+      <view style="color: #000;">车主：冯晨晨kkk</view>
+      <view style="margin-top: 20rpx;">安装地址：上海市松江取</view>
+    </view>
+    <view>
+      <view style="color: #000;">工程师：宋彪</view>
+      <image style="width: 50rpx; height: 50rpx" src="../../assets/img/kang.png" alt="" />
+    </view>
+  </van-cell>
+</van-cell-group>
