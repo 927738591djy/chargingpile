@@ -1,0 +1,64 @@
+<!--pages/order/order.wxml-->
+<view class="top">
+  <view>进行中订单<span>(1)</span></view>
+  <view>已完成订单<span>(1)</span></view>
+  <view>全部<span>(2)</span></view>
+</view>
+<van-search value="{{ value }}" placeholder="请输入搜索姓名" />
+
+<view class="top-blue">
+  <view>勘探信息再次确认中</view>
+  <view>剩余时间：8838分钟</view>
+  </view>
+<view class="order">
+  <view class="text-cell">
+    <view class="text-left">任务编号</view>
+    <view class="text-right">328384848848388399</view>
+  </view>
+  <view class="text-cell">
+    <view class="text-left">安装地址</view>
+    <view class="text-right">上海 上海市 浦东新区祝桥镇 义宏路654号（东港小学第三校区和人民医院十字路口左转100米第一家红房子）
+    </view>
+  </view>
+  <view class="text-cell">
+    <view class="text-left">上门时间</view>
+    <view class="text-right">2022-12-31 13：00</view>
+  </view>
+  <view class="text-cell">
+    <view class="text-left">客户姓名</view>
+    <view class="text-right">黄志豪</view>
+  </view>
+  <view class="last-cell">
+    <view class="button modify">修改时间</view>
+    <view class="button confirm">确定</view>
+  </view>
+</view>
+
+
+<view class="top-blue">
+  <view>勘探信息再次确认中</view>
+  <view>剩余时间：8838分钟</view>
+  </view>
+<view class="order">
+  <view class="text-cell">
+    <view class="text-left">任务编号</view>
+    <view class="text-right">328384848848388399</view>
+  </view>
+  <view class="text-cell">
+    <view class="text-left">安装地址</view>
+    <view class="text-right">上海 上海市 浦东新区祝桥镇 义宏路654号（东港小学第三校区和人民医院十字路口左转100米第一家红房子）
+    </view>
+  </view>
+  <view class="text-cell">
+    <view class="text-left">上门时间</view>
+    <view class="text-right">2022-12-31 13：00</view>
+  </view>
+  <view class="text-cell">
+    <view class="text-left">客户姓名</view>
+    <view class="text-right">黄志豪</view>
+  </view>
+  <view class="last-cell">
+    <view class="button modify">修改时间</view>
+    <view class="button confirm">确定</view>
+  </view>
+</view>

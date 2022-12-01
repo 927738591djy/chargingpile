@@ -1,0 +1,67 @@
+/* pages/order/order.wxss */
+page{
+  background-color: rgb(243, 241, 241);
+}
+.top{
+  display: flex;
+  font-size: 25rpx;
+  background-color: #fff;
+}
+.top view {
+  margin:0 20rpx;
+}
+.van-search{
+  padding:20rpx 0 !important;
+}
+.van-search__content {
+  padding: 20rpx 0;
+}
+.van-cell{
+  font-size: 40rpx!important;
+}
+.order{
+  font-size: 30rpx;
+  background-color: #fff;
+  margin-bottom: 30rpx;
+}
+.text-cell{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25rpx 20rpx;
+}
+.text-left{
+  color: rgb(131, 131, 131);
+}
+.top-blue{
+  background-color: #3f8ff3;
+  display: flex;
+  color: #fff;
+  font-size: 25rpx;
+  justify-content: space-between;
+  padding: 30rpx 20rpx;
+}
+.text-right{
+  max-width: 450rpx;
+  text-align: center;
+}
+.last-cell{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  padding: 25rpx;
+}
+.button{
+  width: 150rpx;
+  margin:0 10rpx;
+  text-align: center;
+  padding: 15rpx 0;
+  border-radius: 15rpx;
+}
+.modify{
+  color: #c18c62;
+  border: 2rpx solid #c18c62;
+}
+.confirm{
+  border: 2rpx solid #000;
+}

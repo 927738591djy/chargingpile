@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/order/order",
     "pages/assignment/assignment",
     "pages/trip/trip",
     "pages/index/index",
@@ -17,7 +18,8 @@
     "van-button": "./miniprogram/miniprogram_npm/@vant/weapp/button/index",
     "van-cell": "./miniprogram/miniprogram_npm/@vant/weapp/cell/index",
     "van-cell-group": "./miniprogram/miniprogram_npm/@vant/weapp/cell-group/index",
-    "van-picker": "./miniprogram/miniprogram_npm/@vant/weapp/picker/index",
-    "van-popup": "./miniprogram/miniprogram_npm/@vant/weapp/popup/index"
+    "van-picker": "./miniprogram/miniprogram_npm/@vant/weapp/picker",
+    "van-popup": "./miniprogram/miniprogram_npm/@vant/weapp/popup/index",
+    "van-search": "./miniprogram/miniprogram_npm/@vant/weapp/search/index"
   }
 }
